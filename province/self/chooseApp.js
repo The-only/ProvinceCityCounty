@@ -29,11 +29,11 @@
 		initProCitCou:function(elem){
 			var content = '<option value="choose" selected>--请选择--</option>';
 			elem.innerHTML = content;
-			/*var option = new Option('--请选择--', choose);   //第二种方法
+			/*var option = new Option('--请选择--', choose);   // 第 二 种方法
                elem.innerHTML = content;
             }*/
             /*
-              elem.length= 1;   //初始化为一个选项
+              elem.length= 1;   //初始化为一个选项     
             */
 
 		},
